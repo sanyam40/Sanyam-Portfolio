@@ -16,7 +16,7 @@ const Header = () => {
               </h1>
             </div>
             <p className="header-text text text-white">
-            I'm 3rd Year CSE student and Full Stack Developer proficient in Java, C++, Spring Boot, and MERN Stack. 
+            I'm 3rd Year CSE student and Full Stack Developer proficient in Java, C++, MERN Stack, Spring Boot and React Native. 
             Skilled in deploying applications on cloud servers, with a strong foundation in database management.
             </p>
           </div>
