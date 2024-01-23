@@ -1,6 +1,6 @@
 import {
   c,java,docker,express,html,spring,react,nodejs,mongodb,mysql,javascript,jenkins,
-  ncu,sdvm,python,
+  ncu,sdvm,python,REACTNATIVE,
   cloud,plenty,
 } from "../assets/image";
 
@@ -111,9 +111,9 @@ const DATA = {
     },
     {
       id: "skill_8",
-      icon: html,
-      name: "HTML5",
-      description: "Frontend Development",
+      icon: REACTNATIVE,
+      name: "React Native",
+      description: "App Development",
     },
     {
       id: "skill_9",
@@ -143,6 +143,18 @@ const DATA = {
   projects: [
     {
       id: "project_1",
+      name: "React Native Mini Apps",
+      startDate: "Jan 2024",
+      tech: "React Native",
+      logos:[react],
+      description:
+        "Check out my Projects Repository, where each project covers key concepts in React Native app development. These projects were crafted to deepen my understanding of React Native and its ecosystem.",
+      links: [
+        { name: "GitHub", url: "https://github.com/sanyam40/React-Native-Projects" },
+      ],
+    },
+    {
+      id: "project_2",
       name: "Billing Application",
       startDate: "Dec 2023",
       tech: "React.js, Node.js, Express.js, MongoDB, HTML, CSS, Bootstrap, Razorpay, Google OAuth, Nodemailer",
@@ -151,11 +163,10 @@ const DATA = {
         "Developed a robust Billing Application using the MERN Stack. Feature-rich billing system with role-based authentication, Google sign-in, Razorpay integration, and automated email notifications, enhancing user experience and security. Implemented a comprehensive admin module allowing bill generation, updates, and deletions.",
       links: [
         { name: "GitHub", url: "https://github.com/sanyam40/Billing-Application_v2" },
-        { name: "Live", url: "https://billing-application-git-main-sanyam40.vercel.app/" },
       ],
     },
     {
-      id: "project_2",
+      id: "project_3",
       name: "Hotel Rating Service - MicroServices (Backend)",
       startDate: "Jun 2023",
       tech: "Spring Boot, Spring Cloud, Spring Security, Hibernate, Resilience4j, MySQL, Okta, Postman",
@@ -167,7 +178,7 @@ const DATA = {
       ],
     },
     {
-      id: "project_3",
+      id: "project_4",
       name: "Project Tracking Application",
       startDate: "May 2023",
       tech: "Spring MVC, Spring Security, Maven, JDBC Template, MySQL, HTML, CSS, Bootstrap",
@@ -176,18 +187,6 @@ const DATA = {
         "Built a robust JIRA-like project tracking app, streamlining admin and user project management using Spring MVC. Admin Module with CRUD operations for project management, role assignment, and progress tracking, alongside a User Module enabling intuitive registration, project viewing, and seamless comment integration. Employed Spring Framework's MVC architecture, Maven for project management, and JDBC Template for efficient MySQL database interaction. Designed a responsive front-end with HTML, and CSS, enhancing overall usability.",
       links: [
         { name: "GitHub", url: "https://github.com/sanyam40/Project-Tracking-Application" },
-      ],
-    },
-    {
-      id: "project_4",
-      name: "Attendance Marking System",
-      startDate: "March 2023",
-      tech: "Python Flask, HTML, CSS",
-      logos:[html,python],
-      description:
-        "Python Flask-based attendance marking system. The system reads a CSV file to determine and record attendance (Present/Absent).Technologies used:Backend: Python Flask,Frontend: HTML & CSS.",
-      links: [
-        { name: "GitHub", url: "https://github.com/sanyam40/Attendance-marking-system" },
       ],
     },
   ],

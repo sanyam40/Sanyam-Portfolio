@@ -18,6 +18,7 @@ import nodejs from "./img/nodejs.svg"
 import mongodb from "./img/mongodb.svg"
 import mysql from "./img/mysql.svg"
 import javascript from "./img/javascript.svg"
+import REACTNATIVE from "./img/REACTNATIVE.png"
 
 import ncu from "./img/ncu.png"
 import sdvm from "./img/sdvm.png"
@@ -29,6 +30,7 @@ import python from "./img/python.svg"
 
 export {
   profile_photo,
+  REACTNATIVE,
   python,
   linkedin,
   cloud,
