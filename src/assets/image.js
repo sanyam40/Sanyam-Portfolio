@@ -19,7 +19,7 @@ import mongodb from "./img/mongodb.svg"
 import mysql from "./img/mysql.svg"
 import javascript from "./img/javascript.svg"
 import REACTNATIVE from "./img/REACTNATIVE.png"
-import Kubernetes from "./img/kubernetes.svg"
+import Kubernetes from "./img/Kubernetes.svg"
 import github_actions from "./img/github_actions.png"
 
 import ncu from "./img/ncu.png"
