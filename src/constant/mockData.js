@@ -1,7 +1,7 @@
 import {
   c,java,docker,express,html,spring,react,nodejs,mongodb,mysql,javascript,jenkins,
-  ncu,sdvm,python,REACTNATIVE,
-  cloud,plenty,
+  ncu,sdvm,python,REACTNATIVE,github_actions,terraform,aws,
+  cloud,plenty,Kubernetes
 } from "../assets/image";
 
 const DATA = {
@@ -123,10 +123,37 @@ const DATA = {
     },
     {
       id: "skill_10",
+      icon: github_actions,
+      name: "Github Actions",
+      description: "DevOps",
+    },
+    {
+      id: "skill_10",
       icon: docker,
       name: "Docker",
       description: "DevOps",
     },
+    
+
+    {
+      id: "skill_10",
+      icon: Kubernetes,
+      name: "Kubernetes",
+      description: "DevOps",
+    },
+    {
+      id: "skill_9",
+      icon: terraform,
+      name: "Terraform",
+      description: "DevOps",
+    },
+    {
+      id: "skill_9",
+      icon: aws,
+      name: "AWS",
+      description: "Cloud",
+    },
+
     {
       id: "skill_11",
       icon: mongodb,
@@ -141,6 +168,18 @@ const DATA = {
     },
   ],
   projects: [
+    {
+      id: "project_1",
+      name: "Ultimate CI/CD Pipeline",
+      startDate: "March 2024",
+      tech: "Jenkins, Docker, Kubernetes, AWS",
+      logos:[react],
+      description:
+        "Implemented CI/CD pipeline with Jenkins, Docker, SonarQube, and Kubernetes for React.js apps, automating build, test, and deployment phases for accelerated software releases. Utilized Kubernetes for containerized deployments, ensuring consistency and enabling seamless scaling for enhanced reliability.",
+      links: [
+        { name: "GitHub", url: "https://github.com/sanyam40/Ultimate-CICD-Pipeline" },
+      ],
+    },
     {
       id: "project_1",
       name: "React Native Mini Apps",
@@ -160,7 +199,7 @@ const DATA = {
       tech: "React.js, Node.js, Express.js, MongoDB, HTML, CSS, Bootstrap, Razorpay, Google OAuth, Nodemailer",
       logos:[react,nodejs,mongodb,html],
       description:
-        "Developed a robust Billing Application using the MERN Stack. Feature-rich billing system with role-based authentication, Google sign-in, Razorpay integration, and automated email notifications, enhancing user experience and security. Implemented a comprehensive admin module allowing bill generation, updates, and deletions.",
+        "Created a feature-rich billing application utilizing the MERN Stack, integrating role-based authentication, Google sign-in, Razorpay payment gateway, and automated email notifications for enhanced user experience and security. Developed an admin module facilitating bill generation, updates, and deletions.",
       links: [
         { name: "GitHub", url: "https://github.com/sanyam40/Billing-Application_v2" },
       ],
@@ -172,8 +211,8 @@ const DATA = {
       tech: "Spring Boot, Spring Cloud, Spring Security, Hibernate, Resilience4j, MySQL, Okta, Postman",
       logos:[spring,mysql],
       description:
-        "Developed a Spring Boot backend application with three microservices: UserService, HotelService, & RatingService. Implemented essential components, including API Gateway, Discovery Client, Spring Eureka Registry, Resilience4j Circuit Breaker, Retry Mechanism, Hibernate, and Spring Security with Okta. Ensured reliability and functionality through rigorous testing with Postman, resulting in a robust and efficient system.",
-      links: [
+      "Built a Spring Boot backend with three microservices: UserService, HotelService, & RatingService. Utilized API Gateway, Spring Eureka Registry, Resilience4j Circuit Breaker, Hibernate, and Spring Security with Okta. Conducted thorough testing with Postman for reliability, resulting in a robust system.",
+        links: [
         { name: "GitHub", url: "https://github.com/sanyam40/HotelRatingService-MicroServices" },
       ],
     },
@@ -184,8 +223,8 @@ const DATA = {
       tech: "Spring MVC, Spring Security, Maven, JDBC Template, MySQL, HTML, CSS, Bootstrap",
       logos:[spring,mysql,html],
       description:
-        "Built a robust JIRA-like project tracking app, streamlining admin and user project management using Spring MVC. Admin Module with CRUD operations for project management, role assignment, and progress tracking, alongside a User Module enabling intuitive registration, project viewing, and seamless comment integration. Employed Spring Framework's MVC architecture, Maven for project management, and JDBC Template for efficient MySQL database interaction. Designed a responsive front-end with HTML, and CSS, enhancing overall usability.",
-      links: [
+      "Created a JIRA-like project tracking app using Spring MVC, featuring an Admin Module for project management and a User Module for intuitive registration and project viewing. Utilized Spring Framework's MVC architecture, Maven, and JDBC Template for efficient MySQL database interaction. Designed a responsive front-end with HTML and CSS to enhance usability.  ",
+          links: [
         { name: "GitHub", url: "https://github.com/sanyam40/Project-Tracking-Application" },
       ],
     },

@@ -12,13 +12,11 @@ const Header = () => {
             <div className="flex items-end header-intro-wrapper">
               <img src={profile_photo} alt="avatar" className="avatar" />
               <h1 className="header-name text-white">
-                Sanyam, <br /> Full Stack Developer
+                Sanyam, <br /> Full Stack & DevOps Engineer
               </h1>
             </div>
             <p className="header-text text text-white">
-            I'm 3rd Year CSE student and Full Stack Developer proficient in Java, C++, MERN Stack, Spring Boot and React Native. 
-            Skilled in deploying applications on cloud servers, with a strong foundation in database management.
-            </p>
+            I am currently in my pre-final year of BTech in Computer Science and Engineering (CSE) with expertise in Full Stack Development. I have experience across various technology stacks and am proficient in DevOps tools, ensuring smooth integration and deployment processes.            </p>
           </div>
 
           <div className="header-contact">
