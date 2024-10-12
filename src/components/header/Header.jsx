@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaEnvelope, FaLink, FaLocationDot, FaPhone } from "react-icons/fa6";
 
-import {github_circle,profile_photo,leetcode,gmail,linkedin} from "../../assets/image";
+import {github_circle,profile_photo,leetcode,gmail,linkedin,profile2} from "../../assets/image";
 
 const Header = () => {
   return (
@@ -10,14 +10,14 @@ const Header = () => {
         <div className="header-content grid items-center">
           <div className="header-intro">
             <div className="flex items-end header-intro-wrapper">
-              <img src={profile_photo} alt="avatar" className="avatar" />
+              <img src={profile2} alt="avatar" className="avatar" />
               <h1 className="header-name text-white">
-                Sanyam, <br /> Full Stack & DevOps Engineer
+                Sanyam Narang <br /> Full Stack & DevOps Engineer
               </h1>
             </div>
             <p className="header-text text text-white">
-            I am currently in my pre-final year of BTech in Computer Science and Engineering (CSE) with expertise in Full Stack Development. I have experience across various technology stacks and am proficient in DevOps tools, ensuring smooth integration and deployment processes.            </p>
-          </div>
+            Greetings! I'm SANYAM, a Full-stack developer with strong back-end and front-end skills, leveraging DevOps and cloud to ensure seamless integration, deployment, and security throughout the software development lifecycle.</p>
+            </div>
 
           <div className="header-contact">
             <ul className="contact-info-list grid text-white">
