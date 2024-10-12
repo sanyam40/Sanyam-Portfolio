@@ -1,7 +1,7 @@
 /* SANYAM */
 import profile_photo from "./img/profile_photo.png";
 import profile2 from "./img/profile2.png"
-import github_circle from "./img/github_circle.svg";
+import github_circle from "./img/github.png";
 import leetcode from "./img/leetcode.svg";
 import gmail from "./img/gmail.svg";
 import linkedin from "./img/linkedin.svg";
@@ -10,7 +10,6 @@ import linkedin from "./img/linkedin.svg";
 import c from "./img/c.svg"
 import java from "./img/java.svg"
 import docker from "./img/docker.svg"
-import html from "./img/html.svg"
 import jenkins from "./img/jenkins.svg"
 import spring from "./img/spring.svg"
 import react from "./img/react.svg"
@@ -25,11 +24,15 @@ import azure from "./img/azure.png"
 
 import ncu from "./img/ncu.png"
 import sdvm from "./img/sdvm.png"
-import cloud from "./img/cloud.jpeg"
+import cloud from "./img/cloud.png"
 import terraform from "./img/terraform.png"
+import xansr from "./img/xansr.png"
+import git from "./img/git.png"
 
 export {
   profile_photo,
+  git,
+  xansr,
   azure,
   nextjs,
   typescript,
@@ -48,7 +51,6 @@ export {
   nodejs,
   react,
   docker,
-  html,
   jenkins,
   c,
   leetcode,

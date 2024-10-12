@@ -1,7 +1,7 @@
 import {
-  c, java, docker, html, spring, react, nodejs, mongodb, mysql, jenkins,
+  c, java, docker, spring, react, nodejs, mongodb, mysql, jenkins,
   ncu, sdvm, github_actions, terraform, typescript,
-  cloud, Kubernetes, nextjs,azure
+  cloud, Kubernetes, nextjs, azure, xansr,git
 } from "../assets/image";
 
 const DATA = {
@@ -10,10 +10,10 @@ const DATA = {
       id: "prof_exp_",
       startDate: "Jun 2024",
       endDate: "Present",
-      position: "Full Stack Intern",
+      position: "Full Stack Developer",
       diamondColors: ["Green", "Yellow", "Purple"],
       company: {
-        logo: cloud,
+        logo: xansr,
         name: "Xansr Media Pvt. Ltd.",
         info: "",
       },
@@ -45,7 +45,7 @@ const DATA = {
       institution: "The NorthCap University, Gurugram, India",
       degree: "",
       startDate: "2021",
-      endDate: "2025 (Expected)",
+      endDate: "2025",
     },
     {
       id: "edu_2",
@@ -111,6 +111,12 @@ const DATA = {
     },
     {
       id: "skill_10",
+      icon: git,
+      name: "Git",
+      description: "DevOps",
+    },
+    {
+      id: "skill_10",
       icon: docker,
       name: "Docker",
       description: "DevOps",
@@ -162,47 +168,29 @@ const DATA = {
     {
       id: "project_1",
       name: "Ultimate CI/CD Pipeline",
-      startDate: "March 2024",
-      tech: "Jenkins, Docker, Kubernetes, AWS",
-      logos: [react],
+      tech: "Jenkins, Docker, SonarQube, Kubernetes, AWS",
       description:
-        "Implemented CI/CD pipeline with Jenkins, Docker, SonarQube, and Kubernetes for React.js apps, automating build, test, and deployment phases for accelerated software releases. Utilized Kubernetes for containerized deployments, ensuring consistency and enabling seamless scaling for enhanced reliability.",
+        "• Engineered a complete CI/CD pipeline for a React.js application, reducing deployment time by 70%. Automated the build, test, and deployment phases.Utilized Kubernetes for containerized deployments, ensuring seamless scaling and 100% environment consistency.",
       links: [
         { name: "GitHub", url: "https://github.com/sanyam40/Ultimate-CICD-Pipeline" },
       ],
     },
     {
-      id: "project_1",
-      name: "React Native Mini Apps",
-      startDate: "Jan 2024",
-      tech: "React Native",
-      logos: [react],
-      description:
-        "Check out my Projects Repository, where each project covers key concepts in React Native app development. These projects were crafted to deepen my understanding of React Native and its ecosystem.",
-      links: [
-        { name: "GitHub", url: "https://github.com/sanyam40/React-Native-Projects" },
-      ],
-    },
-    {
       id: "project_2",
       name: "Billing Application",
-      startDate: "Dec 2023",
-      tech: "React.js, Node.js, Express.js, MongoDB, HTML, CSS, Bootstrap, Razorpay, Google OAuth, Nodemailer",
-      logos: [react, nodejs, mongodb, html],
+      tech: "MERN Stack, Google Sign-In, Razorpay",
       description:
-        "Created a feature-rich billing application utilizing the MERN Stack, integrating role-based authentication, Google sign-in, Razorpay payment gateway, and automated email notifications for enhanced user experience and security. Developed an admin module facilitating bill generation, updates, and deletions.",
+        "• Developed a full-stack billing system with role-based authentication and payment integration using Razorpay.Designed and built an admin module with features like bill generation, updates, and automated email notifications, improving operational efficiency.",
       links: [
         { name: "GitHub", url: "https://github.com/sanyam40/Billing-Application_v2" },
       ],
     },
     {
       id: "project_3",
-      name: "Hotel Rating Service - MicroServices (Backend)",
-      startDate: "Jun 2023",
-      tech: "Spring Boot, Spring Cloud, Spring Security, Hibernate, Resilience4j, MySQL, Okta, Postman",
-      logos: [spring, mysql],
+      name: "Hotel Rating Service - MicroServices",
+      tech: "Spring Boot, Spring Eureka, Resilience4j, Hibernate",
       description:
-        "Built a Spring Boot backend with three microservices: UserService, HotelService, & RatingService. Utilized API Gateway, Spring Eureka Registry, Resilience4j Circuit Breaker, Hibernate, and Spring Security with Okta. Conducted thorough testing with Postman for reliability, resulting in a robust system.",
+        "• Built a hotel rating service with three microservices using Spring Boot: UserService, HotelService, and RatingService.Implemented API Gateway and Circuit Breaker for enhanced system reliability and failover mechanisms",
       links: [
         { name: "GitHub", url: "https://github.com/sanyam40/HotelRatingService-MicroServices" },
       ],
@@ -210,11 +198,9 @@ const DATA = {
     {
       id: "project_4",
       name: "Project Tracking Application",
-      startDate: "May 2023",
-      tech: "Spring MVC, Spring Security, Maven, JDBC Template, MySQL, HTML, CSS, Bootstrap",
-      logos: [spring, mysql, html],
+      tech: "Maven, Spring MVC, JDBC Template, AOP, HTML, CSS",
       description:
-        "Created a JIRA-like project tracking app using Spring MVC, featuring an Admin Module for project management and a User Module for intuitive registration and project viewing. Utilized Spring Framework's MVC architecture, Maven, and JDBC Template for efficient MySQL database interaction. Designed a responsive front-end with HTML and CSS to enhance usability.  ",
+        "• Developed a Spring Framework-based project tracking application with admin features for project management, assignment, and progress tracking.Implemented user functionalities like registration, login, and project viewing, ensuring smooth project management and interaction.",
       links: [
         { name: "GitHub", url: "https://github.com/sanyam40/Project-Tracking-Application" },
       ],
