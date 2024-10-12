@@ -19,7 +19,7 @@ import mysql from "./img/mysql.svg"
 import Kubernetes from "./img/Kubernetes.svg"
 import github_actions from "./img/github_actions.png"
 import typescript from "./img/typescript.png"
-import nextjs from "./img/nextjs.png"
+import nextjs from "./img/nextjs.jpg"
 import azure from "./img/azure.png"
 
 import ncu from "./img/ncu.png"
